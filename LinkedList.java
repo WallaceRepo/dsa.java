@@ -141,3 +141,24 @@ public class LinkedList {
         }
      }
 }
+public class Main {
+    public static void main(String[] args) {
+        LinkedList myLinkedList = new LinkedList(4);
+        myLinkedList.append(2);
+        myLinkedList.append(2);
+        myLinkedList.prepend(10);
+        System.out.println(myLinkedList.get(1).value);
+
+
+//         System.out.println(myLinkedList.removeLast().value);
+//         System.out.println(myLinkedList.removeLast().value);
+//         System.out.println(myLinkedList.removeLast()); // .value() doesn't run on null. It will cause exception.
+
+        System.out.println(myLinkedList.removeFirst().value);
+        System.out.println(myLinkedList.removeFirst().value);
+        System.out.println(myLinkedList.removeFirst()); // .value() doesn't run on null. It will cause exception.
+       //
+
+    }
+
+}
